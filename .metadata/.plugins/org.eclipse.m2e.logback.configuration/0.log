@@ -1,0 +1,21 @@
+2015-02-04 13:23:49,446 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: edu.asu.bmi.cda:naymik-1:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/pom.xml.
+2015-02-04 13:23:51,661 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.asu.bmi.cda:datamodel:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/datamodel/pom.xml.
+2015-02-04 13:23:51,865 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.asu.bmi.cda:example:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/example/pom.xml.
+2015-02-04 13:23:53,393 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.asu.bmi.cda:datamodel:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/datamodel/pom.xml.
+2015-02-04 13:23:53,423 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /datamodel/src/main/java
+2015-02-04 13:23:53,432 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /datamodel/src/test/java
+2015-02-04 13:23:53,516 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.asu.bmi.cda:example:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/example/pom.xml.
+2015-02-04 13:23:53,748 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: edu.asu.bmi.cda:naymik-1:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/pom.xml.
+2015-02-04 13:23:53,845 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /example/src/main/java
+2015-02-04 13:23:53,847 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /example/src/test/java
+2015-02-04 13:23:53,891 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.asu.bmi.cda:datamodel:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/datamodel/pom.xml.
+2015-02-04 13:23:54,025 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.asu.bmi.cda:example:1.0-SNAPSHOT @ /Users/NaymikM/Desktop/appHW2/naymik-1/example/pom.xml.
+2015-02-04 13:23:54,054 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 5 sec
+2015-02-04 13:23:56,570 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-04 13:23:56,571 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/NaymikM/Desktop/appHW2/naymik-1/datamodel/src/main/resources
+2015-02-04 13:23:56,604 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-04 13:23:56,604 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/NaymikM/Desktop/appHW2/naymik-1/datamodel/src/test/resources
+2015-02-04 13:23:56,897 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-04 13:23:56,897 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/NaymikM/Desktop/appHW2/naymik-1/example/src/main/resources
+2015-02-04 13:23:56,899 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-04 13:23:56,900 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/NaymikM/Desktop/appHW2/naymik-1/example/src/test/resources
