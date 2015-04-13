@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workingSetManager>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1423081428097_1" label="naymik-1" name="naymik-1">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/naymik-1" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/datamodel" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/example" type="4"/>
-</workingSet>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1423081345924_0" label="Window Working Set" name="Aggregate for window 1423081345923"/>
-</workingSetManager>
