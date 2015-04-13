@@ -23,7 +23,7 @@ def getName(idCode,idType,DATE):
 		if 'MG' in rxNameString.split(' '):
 			out.write(rxNameString+' injectable;'+DATE+'\n')
 		else:
-			out.write(rxNameString+' X MG injectable;'+DATE+'\n')
+			out.write(rxNameString+' 0 MG injectable;'+DATE+'\n')
 	else:
 		propertyjson = requests.get('http://rxnav.nlm.nih.gov/REST/rxcui/'+idCode+'/properties.json')		
 		rxNameString = propertyjson.json()['properties']['name']
