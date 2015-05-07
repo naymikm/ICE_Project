@@ -1,0 +1,118 @@
+{
+    "original_list_2": [
+        "mercaptopurine 0 MG injectable;02-21-1998", 
+        "Phenylbutazone 0 MG injectable;10-20-1995", 
+        "M-M-R II 0 MG injectable;3-11-1990"
+    ], 
+    "reconciled": [
+        {
+            "identical": [
+                "FORMULATION", 
+                "NORMALIZED_DOSE", 
+                "UNITS", 
+                "SIG", 
+                "DOSE"
+            ], 
+            "med2": {
+                "medication_name": "MERCAPTOPURINE", 
+                "parsed": true, 
+                "provenance": "List 2", 
+                "original_string": "mercaptopurine 0 MG injectable;02-21-1998", 
+                "dose": "0", 
+                "normalized_dose": "0 MG*1*1", 
+                "frequency": "1", 
+                "formulation": "INJECTABLE", 
+                "units": "MG", 
+                "id": 3, 
+                "instructions": "02-21-1998"
+            }, 
+            "med1": {
+                "medication_name": "MERCAPTOPURINE", 
+                "parsed": true, 
+                "provenance": "List 1", 
+                "original_string": "mercaptopurine 0 MG injectable;03-15-1990", 
+                "dose": "0", 
+                "normalized_dose": "0 MG*1*1", 
+                "frequency": "1", 
+                "formulation": "INJECTABLE", 
+                "units": "MG", 
+                "id": 0, 
+                "instructions": "03-15-1990"
+            }, 
+            "score": 1.0, 
+            "mechanism": "Ingredient lists match"
+        }, 
+        {
+            "identical": [
+                "FORMULATION", 
+                "NORMALIZED_DOSE", 
+                "UNITS", 
+                "SIG", 
+                "DOSE"
+            ], 
+            "med2": {
+                "medication_name": "PHENYLBUTAZONE", 
+                "parsed": true, 
+                "provenance": "List 2", 
+                "original_string": "Phenylbutazone 0 MG injectable;10-20-1995", 
+                "dose": "0", 
+                "normalized_dose": "0 MG*1*1", 
+                "frequency": "1", 
+                "formulation": "INJECTABLE", 
+                "units": "MG", 
+                "id": 4, 
+                "instructions": "10-20-1995"
+            }, 
+            "med1": {
+                "medication_name": "PHENYLBUTAZONE", 
+                "parsed": true, 
+                "provenance": "List 1", 
+                "original_string": "Phenylbutazone 0 MG injectable;03-2000", 
+                "dose": "0", 
+                "normalized_dose": "0 MG*1*1", 
+                "frequency": "1", 
+                "formulation": "INJECTABLE", 
+                "units": "MG", 
+                "id": 1, 
+                "instructions": "03-2000"
+            }, 
+            "score": 1.0, 
+            "mechanism": "Ingredient lists match"
+        }
+    ], 
+    "original_list_1": [
+        "mercaptopurine 0 MG injectable;03-15-1990", 
+        "Phenylbutazone 0 MG injectable;03-2000", 
+        "Influenza virus vaccine 0 MG injectable;2-12-2000"
+    ], 
+    "new_list_2": [
+        {
+            "medication_name": "M-M-R II", 
+            "parsed": true, 
+            "provenance": "List 2", 
+            "original_string": "M-M-R II 0 MG injectable;3-11-1990", 
+            "dose": "0", 
+            "normalized_dose": "0 MG*1*1", 
+            "frequency": "1", 
+            "formulation": "INJECTABLE", 
+            "units": "MG", 
+            "id": 5, 
+            "instructions": "3-11-1990"
+        }
+    ], 
+    "new_list_1": [
+        {
+            "medication_name": "INFLUENZA VIRUS VACCINE", 
+            "parsed": true, 
+            "provenance": "List 1", 
+            "original_string": "Influenza virus vaccine 0 MG injectable;2-12-2000", 
+            "dose": "0", 
+            "normalized_dose": "0 MG*1*1", 
+            "frequency": "1", 
+            "formulation": "INJECTABLE", 
+            "units": "MG", 
+            "id": 2, 
+            "instructions": "2-12-2000"
+        }
+    ]
+}

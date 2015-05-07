@@ -1,6 +1,6 @@
 import requests
 
-f = open('stest.txt','r')
+f = open('userInput.txt','r')
 flines = f.read().splitlines()
 f.close()
 out = open('userOut.txt','w')
@@ -43,19 +43,22 @@ def suggestName(userName,DATE):
 def searchName(sName,DATE):
 		suggString = suggestName(sName,DATE)
 		search = requests.get('http://rxnav.nlm.nih.gov/REST/approximateTerm.json?term='+suggString)
-		searchList = search.json()['approximateGroup']['candidate']
-		i = 0
-		while i < len(searchList):
-			rxcuiString = searchList[i]['rxcui']
-			propertyjson = requests.get('http://rxnav.nlm.nih.gov/REST/rxcui/'+rxcuiString+'/properties.json')
-			if propertyjson.json() is None:
-				i+=1
-				continue
-			else:
-				print 'Found RxCUI: '+rxcuiString+' for the item '+'"'+suggString+'" moving to next item...' 
-				print '\n-----------------------------------\n'
-				out.write(rxcuiString+'\t'+'RXCUI'+'\t'+DATE+'\n')
-				break
+		if 'candidate' not in search.json()['approximateGroup']:
+			out2.write(sName+'\t'+DATE)
+		else:	
+			searchList = search.json()['approximateGroup']['candidate']
+			i = 0
+			while i < len(searchList):
+				rxcuiString = searchList[i]['rxcui']
+				propertyjson = requests.get('http://rxnav.nlm.nih.gov/REST/rxcui/'+rxcuiString+'/properties.json')
+				if propertyjson.json() is None:
+					i+=1
+					continue
+				else:
+					print 'Found RxCUI: '+rxcuiString+' for the item '+'"'+suggString+'" moving to next item...' 
+					print '\n-----------------------------------\n'
+					out.write(rxcuiString+'\t'+'RXCUI'+'\t'+DATE+'\n')
+					break
 
 
 for line in flines:

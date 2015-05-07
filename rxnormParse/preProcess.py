@@ -8,9 +8,11 @@ vmrLines2 = vmr2.read().splitlines()
 userLines = user.read().splitlines()
 vmr1.close()
 vmr2.close()							
-#print vmrLines1
-out = open('TEST.txt','w')
-out2 = open('userTest.txt','w')				
+noTerm = open('noTerms.txt', 'r')
+noTermlines = noTerm.read().splitlines()
+noTerm.close()
+out = open('officialImmList.txt','w')
+out2 = open('userImmList.txt','w')				
 
 # def searchName(userName) in search.py ....
 
@@ -87,4 +89,9 @@ for line in userLines:
 	DATE = line.split('\t')[2]	
 	getName2(idCode,idType,DATE)
 
+for line in noTermlines:
+	out2.write(line.split('\t')[0] + ' 0 MG injectable;' + line.split('\t')[1]+'\n')
+
+out2.write('******')
+out2.close()
 out.close()												

@@ -1,0 +1,10 @@
+M-M-R II 0 MG injectable;3-1991
+Flu vaccine 0 MG injectable;3-2-1990
+Chickenpox vaccine 0 MG injectable;4-1989
+Anthrax vaccine 0 MG injectable;5-22-2000
+******
+M-M-R II 0 MG injectable;3-1-1991
+Flue vaccine 0 MG injectable;3-2-1990
+Meningococcal vaccine 0 MG injectable;5-18-2001
+Tetanus vaccine 0 MG injectable;1989
+******
